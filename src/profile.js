@@ -3,7 +3,7 @@ export const profile = {
   role: "Full-Stack Developer",
   location: "Algeria",
   email: "zakibendida700@gmail.com",
-  phone: "+213 000 000 000",
+  // phone: "+213 000 000 000",
   photo: "/zaki.png",
   photoAlt: "Portrait of Zakaria Bendida",
   availability: "Information Systems Engineering student",

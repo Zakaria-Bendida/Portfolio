@@ -638,13 +638,13 @@ function App() {
               <Mail size={20} />
               {profile.email}
             </a>
-            <a
+            {/* <a
               href={`tel:${profile.phone.replaceAll(" ", "")}`}
               className="contact-link"
             >
               <Phone size={20} />
               {profile.phone}
-            </a>
+            </a> */}
             <a href={profile.socials.github} className="contact-link">
               <SocialIcon name="github" FallbackIcon={Github} size={20} />
               GitHub
