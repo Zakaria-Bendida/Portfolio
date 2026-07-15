@@ -635,33 +635,40 @@ function App() {
           </div>
           <div className="contact-actions">
             <a href={`mailto:${profile.email}`} className="contact-link">
-              <Mail size={20} />
+              <span className="contact-icon-badge">
+                <SocialIcon name="email" FallbackIcon={Mail} size={18} />
+              </span>
               {profile.email}
             </a>
-            {/* <a
-              href={`tel:${profile.phone.replaceAll(" ", "")}`}
-              className="contact-link"
-            >
-              <Phone size={20} />
-              {profile.phone}
-            </a> */}
             <a href={profile.socials.github} className="contact-link">
-              <SocialIcon name="github" FallbackIcon={Github} size={20} />
+              <span className="contact-icon-badge">
+                <SocialIcon name="github" FallbackIcon={Github} size={18} />
+              </span>
               GitHub
               <ArrowUpRight size={16} />
             </a>
             <a href={profile.socials.linkedin} className="contact-link">
-              <SocialIcon name="linkedin" FallbackIcon={Linkedin} size={20} />
+              <span className="contact-icon-badge">
+                <SocialIcon name="linkedin" FallbackIcon={Linkedin} size={18} />
+              </span>
               LinkedIn
               <ArrowUpRight size={16} />
             </a>
             <a href={profile.socials.instagram} className="contact-link">
-              <SocialIcon name="instagram" FallbackIcon={Instagram} size={20} />
+              <span className="contact-icon-badge">
+                <SocialIcon
+                  name="instagram"
+                  FallbackIcon={Instagram}
+                  size={18}
+                />
+              </span>
               Instagram
               <ArrowUpRight size={16} />
             </a>
             <a href={profile.socials.x} className="contact-link">
-              <SocialIcon name="x" FallbackIcon={Twitter} size={20} />
+              <span className="contact-icon-badge">
+                <SocialIcon name="x" FallbackIcon={Twitter} size={18} />
+              </span>
               X / Twitter
               <ArrowUpRight size={16} />
             </a>
