@@ -171,7 +171,7 @@ export const profile = {
       tags: ["React", "Vite", "Node.js", "Express", "MongoDB", "REST API"],
       image: "/projects/demande.png",
       imageAlt: "Saudi eVisa digital visa request platform screenshot",
-      link: "lien-vers-ton-projet-deploye",
+      link: "https://saudi-evisa-platform.vercel.app/",
       details: [
         {
           icon: "Layers",
@@ -241,7 +241,7 @@ export const profile = {
       ],
       image: "/projects/foodapp.png",
       imageAlt: "FoodApp multi-branch food ordering platform screenshot",
-      link: "https://saudi-evisa-platform.vercel.app/",
+      link: "lien-vers-ton-projet-deploye",
       details: [
         {
           icon: "MapPin",
