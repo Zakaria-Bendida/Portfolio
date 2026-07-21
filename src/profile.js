@@ -241,7 +241,7 @@ export const profile = {
       ],
       image: "/projects/foodapp.png",
       imageAlt: "FoodApp multi-branch food ordering platform screenshot",
-      link: "lien-vers-ton-projet-deploye",
+      link: "https://saudi-evisa-platform.vercel.app/",
       details: [
         {
           icon: "MapPin",
