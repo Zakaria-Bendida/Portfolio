@@ -295,6 +295,72 @@ export const profile = {
       },
       note: "Licence ISIL (Ingénierie des Systèmes d'Information et Logiciels) graduation project, 2024.",
     },
+    {
+      title: "MAZAL Mobilier - Artisan Furniture Brand Website",
+      type: "Professional client project - Full-stack Next.js website with i18n",
+      text: "A fully responsive, bilingual (FR/EN) artisan furniture brand website built with Next.js 16 and React 19, featuring smooth Lenis scroll, collection detail modals, a contact form with mailto integration, and a custom preloader — all optimized for 95%+ Lighthouse performance and accessibility scores.",
+      tags: ["Next.js", "React 19", "TypeScript", "Lenis", "i18n", "CSS"],
+      image: "/projects/mazal.png",
+      imageAlt: "MAZAL Mobilier artisan furniture website screenshot",
+      link: "https://mazal-mobilier.vercel.app/",
+      details: [
+        {
+          icon: "Globe",
+          title: "Bilingual FR/EN (i18n)",
+          text: "Full translations with localStorage persistence and context-based switching",
+        },
+        {
+          icon: "Layers",
+          title: "8 complete pages",
+          text: "Home, Collections, Savoir-faire, Portfolio, Journal, Services, Contact, Mentions légales",
+        },
+        {
+          icon: "Mouse",
+          title: "Lenis smooth scroll",
+          text: "Dynamic import with proper cleanup and scroll-linked reveal animations",
+        },
+        {
+          icon: "Eye",
+          title: "Collection detail modals",
+          text: "Clickable cards opening a detail overlay with price, specs, and CTA",
+        },
+        {
+          icon: "Mail",
+          title: "Contact form (mailto:)",
+          text: "Pre-filled email sent to client's address — no backend required",
+        },
+        {
+          icon: "Smartphone",
+          title: "Mobile-first responsive",
+          text: "Tested on Samsung devices with body scroll lock on modals",
+        },
+        {
+          icon: "Accessibility",
+          title: "WCAG accessibility (95%+)",
+          text: "ARIA labels, landmarks, contrast fixes, focus management, semantic HTML",
+        },
+        {
+          icon: "Zap",
+          title: "Performance (95%+ Lighthouse)",
+          text: "next/font, lazy loading, WebP/AVIF images, code splitting, CSS containment",
+        },
+      ],
+      stats: [
+        { value: "8", label: "Pages" },
+        { value: "2", label: "Languages" },
+        { value: "95%+", label: "Lighthouse" },
+        { value: "100%", label: "Responsive" },
+      ],
+      about:
+        "MAZAL Mobilier is a complete brand website for an Algerian artisan furniture maker, featuring a curated collection showcase, process storytelling, portfolio gallery, and a blog section — all fully localized and optimized for performance and accessibility.",
+      meta: {
+        type: "Professional Project",
+        year: "2025",
+        stack: "Next.js / React / TypeScript",
+        status: "Completed & Deployed",
+      },
+      note: "Built from scratch, deployed on Vercel with automatic CI/CD.",
+    },
   ],
   process: [
     "Understand the business rules and user roles",
