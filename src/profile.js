@@ -13,7 +13,7 @@ export const profile = {
     "I am Zakaria Bendida, a 5th-year computer science student and information systems engineer in training. I build full-stack systems with React, Next.js, Node.js, databases, real-time communication, GIS tools, and practical UI design with Figma.",
   socials: {
     github: "https://github.com/Zakaria-Bendida",
-    linkedin: "https://linkedin.com/",
+    linkedin: "https://www.linkedin.com/in/zakaria-bendida/",
     instagram: "https://instagram.com/",
     x: "https://x.com/",
     cv: "/CV_Bendida_FullStack_DeepNavy.pdf",
